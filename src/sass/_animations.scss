@@ -11,7 +11,7 @@ $aos-distance: 100px !default;
     */
 
     [data-aos^='fade'][data-aos^='fade'] {
-      opacity: 0;
+      opacity: 0.001;
       transition-property: opacity, transform;
 
       &.aos-animate {
@@ -62,7 +62,7 @@ $aos-distance: 100px !default;
     */
 
     [data-aos^='zoom'][data-aos^='zoom'] {
-      opacity: 0;
+      opacity: 0.001;
       transition-property: opacity, transform;
 
       &.aos-animate {
